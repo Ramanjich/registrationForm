@@ -1,0 +1,73 @@
+.app-container {
+  background-color: #ffffff;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Roboto;
+}
+.first-name-con {
+  display: flex;
+  flex-direction: column;
+}
+
+.last-name-con {
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.form-container {
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  padding: 40px;
+  border-radius: 10px;
+}
+.main-heading {
+  color: #ea580c;
+}
+.label-text {
+  color: #475569;
+  font-size: 13px;
+}
+
+.input-ele {
+  color: #cbd2d9;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 40px;
+  border-style: solid;
+  border-color: #9aa5b1;
+  border-width: 1px;
+}
+.submit-btn-con {
+  text-align: center;
+}
+.submit-btn {
+  border: none;
+  color: #fef2f4;
+  background-color: #ea580c;
+  border-radius: 5px;
+  padding: 5px;
+}
+/* success-container */
+
+.success-container {
+  text-align: center;
+  padding: 50px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+}
+.button {
+  color: #ffffff;
+  border: none;
+  background-color: #ff0b37;
+  padding: 6px;
+  border-radius: 10px;
+}
+
+.error-para {
+  color: #ff0b37;
+  font-size: 10px;
+}
